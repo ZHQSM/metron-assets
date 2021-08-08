@@ -111,6 +111,14 @@ dd {
 blockquote {
   margin: 0 0 1rem; }
 
+a {
+  color: #6993FF;
+  text-decoration: none;
+  background-color: transparent; }
+  a:hover {
+    color: #1d5cff;
+    text-decoration: underline; }
+
 b,
 strong {
   font-weight: 600; }
@@ -131,13 +139,7 @@ sub {
 sup {
   top: -.5em; }
 
-a {
-  color: #6993FF;
-  text-decoration: none;
-  background-color: transparent; }
-  a:hover {
-    color: #1d5cff;
-    text-decoration: underline; }
+
 
 a:not([href]) {
   color: inherit;
