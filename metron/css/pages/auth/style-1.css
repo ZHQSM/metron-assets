@@ -32,7 +32,8 @@
 
 .login.login-1 .login-form {
   width: 100%;
-  max-width: 450px; }
+  max-width: 450px;
+  background-color: #0000007d; }
 
 .rounded-l-0 {
   border-top-left-radius: 0 !important;
