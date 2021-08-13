@@ -2201,7 +2201,7 @@ pre {
 
 .background-walk-y {
   background-repeat: no-repeat;
-  background-position: 0 0%;
+  background-position: top;
   -webkit-animation-name: backgroundWalkY;
           animation-name: backgroundWalkY;
   -webkit-animation-duration: 70s;
@@ -2214,7 +2214,8 @@ pre {
           animation-fill-mode: forwards;
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
-  background-size: 150%; }
+  background-size: 150%;
+  object-fit: cover; }
 
 @media (max-width: 1199.98px) {
   .background-walk-y {
